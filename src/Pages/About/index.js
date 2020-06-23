@@ -8,9 +8,11 @@ const About_wrap = styled.div`
   justify-content:center;
   width: 100%;
   align-items: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
+  padding-top: 8rem;
   transform: skewY(-3deg);
   background:#459dfa;
+  box-shadow:30px 30px 60px 0 rgba(69, 157, 250, 0.4);
   transition: background 0.3s;
   position: relative;
 `
@@ -48,7 +50,7 @@ const About = () => {
     <>
     <About_wrap>
       <Inner_box>
-        <div className="about_title"><span>이력서</span></div>                
+        {/* <div className="about_title"><span>이력서</span></div>                 */}
           <Career />
           <Education />
         <div className="about_skils">

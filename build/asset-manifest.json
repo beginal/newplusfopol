@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/newpluspofol/static/js/main.786883d6.chunk.js",
+    "main.js.map": "/newpluspofol/static/js/main.786883d6.chunk.js.map",
+    "runtime-main.js": "/newpluspofol/static/js/runtime-main.05d471f5.js",
+    "runtime-main.js.map": "/newpluspofol/static/js/runtime-main.05d471f5.js.map",
+    "static/js/2.3daba3e1.chunk.js": "/newpluspofol/static/js/2.3daba3e1.chunk.js",
+    "static/js/2.3daba3e1.chunk.js.map": "/newpluspofol/static/js/2.3daba3e1.chunk.js.map",
+    "index.html": "/newpluspofol/index.html",
+    "precache-manifest.5b8bbf399421899e738b0aa15e283b63.js": "/newpluspofol/precache-manifest.5b8bbf399421899e738b0aa15e283b63.js",
+    "service-worker.js": "/newpluspofol/service-worker.js",
+    "static/js/2.3daba3e1.chunk.js.LICENSE.txt": "/newpluspofol/static/js/2.3daba3e1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05d471f5.js",
+    "static/js/2.3daba3e1.chunk.js",
+    "static/js/main.786883d6.chunk.js"
+  ]
+}

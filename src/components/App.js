@@ -10,6 +10,8 @@ const Root = styled.div`
   .header {
     width: 20%;
   }
+  .card {
+  }
   .pages {
      width: 100%;
     .context {
@@ -26,7 +28,7 @@ const App = () => {
     <Root>
     <Header className="header" />
     <div className="pages">
-    <Card />
+    <Card className="card" />
     <Context className="context" />
     <Footer className="footer" />
     </div>

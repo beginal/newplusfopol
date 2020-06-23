@@ -1,24 +1,36 @@
 import React, { useState, useEffect } from 'react'
 import styled from '@emotion/styled';
-
+import Typical from 'react-typical';
 
 const Porfile_wrap = styled.div`
   display: flex;
-  margin: 3rem 0;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items:center;
+  height:100px;
+  margin-bottom: 8rem;
+  z-index: 10;
+  span {
+    font-size: 2.3vw;
+    margin: 0 1rem;
+    font-weight: 600;
+    &:after {
+      content: none;
+    }
+  }
 `
 const Porfile_box = styled.div`
   display: flex;
   justify-content: center;
   position: relative; 
   align-items:center;
-  width: 390px;
+  width: 380px;
   background: white;
   border: 1px solid rgba(99,99,99,.08);
-  border-radius: 5px;
-  box-shadow: 2px 2px 2px rgba(99,99,99,.2);
+  border-radius: 10px;
+  top: 12rem;
+  z-index:10;
+  box-shadow: 7px 6px 10px rgba(7, 7, 7, 0.5);
   margin: 5px;
   padding: 10px;
   .image {
@@ -46,7 +58,7 @@ const Porfile_box = styled.div`
       display: flex;
       justify-content: left;
       align-items:center;
-      margin-bottom: 4px;
+      margin-bottom: 10px;
       color: #333333;
     .svg {
       font-size: 1rem;
@@ -75,6 +87,11 @@ const Porfile = () => {
 
   return (
     <Porfile_wrap>
+      {/* <Typical
+        steps={[300,'리액트 개발자']}
+        loop={1}
+        wrapper="span"
+        /> */}
       <Porfile_box>
         <div className="image">
           <img src="http://placehold.it/150x200" alt=""/>
@@ -86,6 +103,11 @@ const Porfile = () => {
           <p className="phone">{phone}</p>
         </div>
       </Porfile_box>
+      {/* <Typical
+        steps={[1300,'입니다']}
+        loop={1}
+        wrapper="span"
+        /> */}
     </Porfile_wrap>
   )
 }

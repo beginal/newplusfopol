@@ -6,7 +6,7 @@ margin-top: 2rem;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 3rem;
+margin-top: 20rem;
 text-align:center;
  div {
   display: inline-block;
@@ -18,8 +18,8 @@ const Box = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 200px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
   border: 1px solid black;
   background: white;
   margin:0 0.5rem;
@@ -29,6 +29,7 @@ const Box = styled.div`
   &:hover {
     cursor: pointer;
     .text {
+      bottom: 150px;
       z-index: 99;
       display: flex;
     }
@@ -40,18 +41,19 @@ const Box = styled.div`
       height: 100%;
     }
   .text {
-    display: none;
+    display: flex;
     justify-content: center;
-    align-items: center;
     width:100%;
     position: relative;
-    background: rgba(0,0,0,.7);
+    transition: bottom .5s;
+    background: rgba(255,255,255,.7);
+    color:black;
     height: 100%;
-    bottom: 293px;
-    margin: 10px 0;
+    bottom: 0px;
+    padding: 3rem 0;
     font-size: 1rem;
     text-align:center;
-    color: white;
+    font-weight: 500;
   }
   }
 `

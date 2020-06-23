@@ -2,6 +2,7 @@
   "name": "newpluspofol",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://beginal.github.io/newpluspofol",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
@@ -15,18 +16,32 @@
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
+    "@material-ui/core": "^4.10.2",
     "@material-ui/icons": "^4.9.1",
-    "deploy": "^1.0.3",
     "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "react-transition-group": "^4.4.1",
+    "react-typical": "^0.1.3"
   },
   "devDependencies": {
     "babel-loader": "^8.1.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
