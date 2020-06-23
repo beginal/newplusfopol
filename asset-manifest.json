@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/newplusfopol/static/js/main.41abb705.chunk.js",
-    "main.js.map": "/newplusfopol/static/js/main.41abb705.chunk.js.map",
+    "main.js": "/newplusfopol/static/js/main.a5ea2b4d.chunk.js",
+    "main.js.map": "/newplusfopol/static/js/main.a5ea2b4d.chunk.js.map",
     "runtime-main.js": "/newplusfopol/static/js/runtime-main.cd508a22.js",
     "runtime-main.js.map": "/newplusfopol/static/js/runtime-main.cd508a22.js.map",
     "static/js/2.b675b49d.chunk.js": "/newplusfopol/static/js/2.b675b49d.chunk.js",
     "static/js/2.b675b49d.chunk.js.map": "/newplusfopol/static/js/2.b675b49d.chunk.js.map",
     "index.html": "/newplusfopol/index.html",
-    "precache-manifest.e25ee3c6adf1b0a81046f25151690302.js": "/newplusfopol/precache-manifest.e25ee3c6adf1b0a81046f25151690302.js",
+    "precache-manifest.deb76507effaa7da587b77bcc3481152.js": "/newplusfopol/precache-manifest.deb76507effaa7da587b77bcc3481152.js",
     "service-worker.js": "/newplusfopol/service-worker.js",
     "static/js/2.b675b49d.chunk.js.LICENSE.txt": "/newplusfopol/static/js/2.b675b49d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cd508a22.js",
     "static/js/2.b675b49d.chunk.js",
-    "static/js/main.41abb705.chunk.js"
+    "static/js/main.a5ea2b4d.chunk.js"
   ]
 }
