@@ -46,14 +46,14 @@ const Box = styled.div`
     width:100%;
     position: relative;
     transition: bottom .5s;
-    background: rgba(255,255,255,.7);
+    background: rgba(255,255,255,.9);
     color:black;
     height: 100%;
     bottom: 0px;
     padding: 3rem 0;
     font-size: 1rem;
     text-align:center;
-    font-weight: 500;
+    font-weight:600;
   }
   }
 `

@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react'
 import styled from '@emotion/styled';
 
 const Title = styled.h2`
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
   color: ${props => props.color || "black"};
   font-size: 2rem;
   font-weight: 600;

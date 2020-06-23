@@ -2,6 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 const Carry_wrap = styled.div`
+  transform: skewY(-5deg);
   .career_title {
     display:block;
     color: #eeeeee;

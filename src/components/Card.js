@@ -6,8 +6,9 @@ const Porfile_wrap = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  position: relative; 
   align-items:center;
-  height:100px;
+  height:80px;
   margin-bottom: 8rem;
   z-index: 10;
   span {
@@ -24,7 +25,7 @@ const Porfile_box = styled.div`
   justify-content: center;
   position: relative; 
   align-items:center;
-  width: 380px;
+  width: 370px;
   background: white;
   border: 1px solid rgba(99,99,99,.08);
   border-radius: 10px;
@@ -45,12 +46,13 @@ const Porfile_box = styled.div`
   .resume {    
     display: flex;
     flex-direction: column;
+    padding: 20px 0;
     margin: 0 20px;
     .name {
       display: flex;
       justify-content: center;
       margin:0;
-      margin-bottom: 10px;
+      margin-bottom: 1.5rem;
       font-size: 1.5rem;
       font-weight: 600;
     }
@@ -58,7 +60,7 @@ const Porfile_box = styled.div`
       display: flex;
       justify-content: left;
       align-items:center;
-      margin-bottom: 10px;
+      margin-bottom: 1rem;
       color: #333333;
     .svg {
       font-size: 1rem;

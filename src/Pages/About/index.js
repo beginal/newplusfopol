@@ -10,7 +10,6 @@ const About_wrap = styled.div`
   align-items: center;
   margin: 1rem 0;
   padding-top: 8rem;
-  transform: skewY(-3deg);
   background:#459dfa;
   box-shadow:30px 30px 60px 0 rgba(69, 157, 250, 0.4);
   transition: background 0.3s;
@@ -22,7 +21,7 @@ const Inner_box = styled.div`
   background: ${props => props.background};
   text-align:center;
   margin: 2rem 3rem;
-  transform: skewY(3deg);
+  transform: skewY(5deg);
   transition: background 0.3s;
   
   .about_title {
@@ -41,6 +40,7 @@ const Inner_box = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: skewY(-5deg);
   }
 `
 
