@@ -151,7 +151,7 @@ const Header = () => {
   return (
     <Root_Header hide={togglekey}>
       <div className="logo">
-        <Link to="/" exact><a>
+        <Link to="/"><a>
           <img src="image/react.png" alt=""/>
           </a></Link>
           </div>
