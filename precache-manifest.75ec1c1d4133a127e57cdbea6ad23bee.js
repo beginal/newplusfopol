@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4625a290e1836f4a0cd9ff60e8f46d7c",
+    "revision": "2988af81cbfdb97bd358968719aeb187",
     "url": "/newplusfopol/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/newplusfopol/static/js/2.3daba3e1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a5bec1929d3319fa8e7",
-    "url": "/newplusfopol/static/js/main.786883d6.chunk.js"
+    "revision": "85868021e1241bc02c11",
+    "url": "/newplusfopol/static/js/main.b4d2c6f5.chunk.js"
   },
   {
     "revision": "ea1f3cfb6f7cad98b9ba",
